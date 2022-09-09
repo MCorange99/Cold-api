@@ -14,6 +14,9 @@ serde = { version = "1.0.144", features = ["derive"] }
 # api framework
 actix-web = "4.0.0"
 
+# logger
+env_logger = "0.9.0"
+
 # env vars
 # https://github.com/dotenv-rs/dotenv
 dotenv = "0.15.0"
