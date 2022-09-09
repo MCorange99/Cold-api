@@ -1,0 +1,20 @@
+[package]
+name = "rust_with_cold"
+version = "0.0.1"
+edition = "2021"
+authors = ["MCorange <mcorangecodes@gmail.com>", "Colderry <[placeholder]@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#json
+serde_json = "1.0"
+serde = { version = "1.0.144", features = ["derive"] }
+
+# api framework
+actix-web = "4.0.0"
+
+# env vars
+# https://github.com/dotenv-rs/dotenv
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0" # for dontenv!("TOKEN")
